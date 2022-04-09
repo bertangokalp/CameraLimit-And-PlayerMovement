@@ -1,0 +1,61 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://dersbuton2.png" type="Texture" id=1]
+[ext_resource path="res://dersbuton3.png" type="Texture" id=2]
+[ext_resource path="res://dersbuton1.png" type="Texture" id=3]
+[ext_resource path="res://dersbutton1.png" type="Texture" id=4]
+[ext_resource path="res://dersbutton2.png" type="Texture" id=5]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureButton" type="TextureButton" parent="."]
+margin_left = 636.0
+margin_top = 115.0
+margin_right = 657.0
+margin_bottom = 125.0
+rect_scale = Vector2( 10, 10 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 1 )
+texture_hover = ExtResource( 2 )
+
+[node name="TextureButton2" type="TextureButton" parent="."]
+margin_left = 636.0
+margin_top = 236.0
+margin_right = 657.0
+margin_bottom = 246.0
+rect_scale = Vector2( 10, 10 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 1 )
+texture_hover = ExtResource( 2 )
+
+[node name="TextureButton3" type="TextureButton" parent="."]
+margin_left = 636.0
+margin_top = 355.0
+margin_right = 657.0
+margin_bottom = 365.0
+rect_scale = Vector2( 10, 10 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 1 )
+texture_hover = ExtResource( 2 )
+
+[node name="TextureButton4" type="TextureButton" parent="."]
+margin_left = 304.0
+margin_top = 112.0
+margin_right = 319.0
+margin_bottom = 126.0
+rect_scale = Vector2( 10, 10 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+expand = true
+
+[node name="TextureButton5" type="TextureButton" parent="."]
+margin_left = 96.0
+margin_top = 112.0
+margin_right = 111.0
+margin_bottom = 126.0
+rect_scale = Vector2( 10, 10 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+expand = true
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
